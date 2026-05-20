@@ -70,11 +70,3 @@ def get_weather(weather_data):
     except KeyError:
         print("The city does not exist try another city")
         
-while True:
-    city_name = input("Enter the city you would like to check the weather for (exit to quit): ").lower()
-    if city_name == "exit":
-        break
-
-    weather = get_city(city_name)
-
-    get_weather(weather)

@@ -37,7 +37,7 @@ api_key = "Your key"
 ## Run the Program
 
 ```bash
-python weather.py
+python main.py
 ```
 
 ## Example
