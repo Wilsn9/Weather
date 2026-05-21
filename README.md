@@ -32,10 +32,17 @@ pip install requests
 pip install python-dotenv
 ```
 
-In dotenv add your API key here:
+## Get an API Key
 
-```
-API_KEY = "Your key"
+This project uses WeatherAPI.
+
+1. Create a free account at https://www.weatherapi.com/
+2. Generate your API key
+3. Create a `.env` file in the project root
+4. Add your API key:
+
+```env
+API_KEY="your_api_key_here"
 ```
 
 ## Run the Program
@@ -52,4 +59,3 @@ Country: Sweden
 Temperature: 18 °C
 Weather: Partly cloudy
 Weather comment: The weather is pleasant!
-```
