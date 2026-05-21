@@ -1,7 +1,11 @@
 import requests
+import os
+from dotenv import load_dotenv
 
-# Enter your API-key
-api_key = "Your key" 
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY")
+
 
 # Endpoint for current weather data
 base_url = "https://api.weatherapi.com/v1/current.json"
@@ -10,7 +14,7 @@ base_url = "https://api.weatherapi.com/v1/current.json"
 
 def get_city(city):
     params = {
-        "key": api_key,
+        "key": API_KEY,
         "q": city
     }
     try:
