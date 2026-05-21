@@ -24,17 +24,17 @@ I made this project to learn more about:
 
 ## Installation
 
-python -m venv venv
-soruce venv/bin/activate
+- python -m venv venv
+- source venv/bin/activate
 
 ```bash
 pip install requests
 pip install python-dotenv
 ```
 
-Add your API key here:
+In dotenv add your API key here:
 
-```.env
+```
 API_KEY = "Your key"
 ```
 
