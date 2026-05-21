@@ -24,14 +24,18 @@ I made this project to learn more about:
 
 ## Installation
 
+python -m venv venv
+soruce venv/bin/activate
+
 ```bash
 pip install requests
+pip install python-dotenv
 ```
 
 Add your API key here:
 
-```python
-api_key = "Your key"
+```.env
+API_KEY = "Your key"
 ```
 
 ## Run the Program
